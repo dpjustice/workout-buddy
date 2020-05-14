@@ -10,7 +10,7 @@
 
 # production
 /build
-deploy-notes.txt
+deploy.sh
 
 # misc
 .DS_Store
