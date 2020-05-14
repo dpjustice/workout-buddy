@@ -111,7 +111,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div id="timer">Timer</div>
-        <input id="time" className="inputNumber" type="number" min="0" step="1" required placeholder="Rep Time (sec)"></input>
+        <input id="time" className="inputNumber" type="number" min="0" step="1" required placeholder="Workout Time (sec)"></input>
         <input id="rest" className="inputNumber" type="number" min="0" step="1" required placeholder="Rest Time (sec)"></input>
         <input id="sets" className="inputNumber" type="number" min="0" step="1" required placeholder="How many Sets?"></input>
         <button id="button" onClick={handleClick}>Run Timer</button>
